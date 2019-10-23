@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div class="container">
+  <section>
+    <div class="flip-parent">
+      <div class="flip" id="first">
+
+          <div id="BottomWorld" class="BottomWorld hidden-xs"><img class="avatar" src="http://ahmetbadur.com/assets/images/bottom-world.png"></div>
+          <div id="star1" class="hidden-xs"></div>
+          <div id="star2" class="hidden-xs"></div>
+         
+
+
+        <p class="pixel-counter"></p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="flip-parent">
+      <div class="flip" id="second">
+        <!--Since the section is tilting we need a constant linear value from our parent -->
+        <div class="description">
+            <h1>Solar System</h1>
+            <hr />
+            <p>
+              I know this is not the first one on CodePen, but I'm a space and physics lover, and I wanted to create mine :)
+            </p>
+            <p>
+              Here is a true time scaled solar-system, which means that every objects have a time relative to an Earth year.
+              You can change the number in second of the
+              <br />
+              <code>$year-in-second</code>
+              variable to increase the speed of revolutions. Here 1 year = 30 seconds.
+            </p>
+            <p class="hide">
+              Note the css tricks for the Saturn rings (box-shadow) and reverse animation to compensate the orbit.
+            </p>
+            <hr />
+            <p class="author">
+              Made with
+              <i class="fa fa-heart"></i>
+              by Malik Dellidj
+            </p>
+            <p class="links">
+              <a class="fa fa-codepen icon">{:href => "https://codepen.io/kowlor/", :target => "_blank"}</a>
+              <a class="fa fa-github-alt icon">{:href => "https://github.com/KOWLOR", :target => "_blank"}</a>
+              <a class="fa fa-twitter icon">{:href => "https://twitter.com/Dathink", :target => "_blank"}</a>
+            </p>
+          </div>
+          <div class="solar-syst">
+            <div class="sun"></div>
+            <div class="mercury"></div>
+            <div class="venus"></div>
+            <div class="earth"></div>
+            <div class="mars"></div>
+            <div class="jupiter"></div>
+            <div class="saturn"></div>
+            <div class="uranus"></div>
+            <div class="neptune"></div>
+            <div class="pluto"></div>
+            <div class="asteroids-belt"></div>
+          </div>
+          
+      
+        <p class="pixel-counter"></p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="flip-parent">
+      <div class="flip" id="third">
+        <!-- particles.js container --> <div id="particles-js"></div> <!-- stats - count particles --><div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+        <p class="pixel-counter"></p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="flip-parent">
+      <div class="flip" id="fourth">
+      <!-- check the Comments for more info -->
+
+
+  <div class="rain front-row"></div>
+  <div class="rain back-row"></div>
+              
+            </div>
+        <p class="pixel-counter"></p>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
